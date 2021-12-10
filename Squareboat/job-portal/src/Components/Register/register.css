@@ -1,0 +1,73 @@
+.form-container.register {
+  margin-top: 1rem;
+}
+
+.form-container > form > p {
+  margin-top: 1.5rem;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.button > p {
+  margin-top: 2rem;
+}
+
+.password_form {
+  display: flex;
+}
+
+.password_form .left > input,
+.password_form .right > input {
+  width: 96%;
+  height: 2.6rem;
+
+  outline: none !important;
+  padding: 1.5rem 1.5rem;
+}
+
+.password_form .right {
+  margin-left: 2rem;
+}
+
+.user_option {
+  display: flex;
+}
+.recruiter {
+  display: flex;
+  margin-top: 0.5rem;
+  padding: 10px 10px;
+  background-color: rgb(68, 172, 249);
+  color: white;
+  border: none;
+  width: 30%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recruiter > p {
+  margin-top: 0.4rem;
+  margin-left: 0.5rem;
+}
+
+.candidate {
+  display: flex;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  padding: 10px 10px;
+  background-color: rgb(218, 218, 218);
+  color: black;
+  border: none;
+  width: 30%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.candidate > p {
+  margin-top: 0.4rem;
+  margin-left: 0.5rem;
+}
